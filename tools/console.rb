@@ -3,7 +3,14 @@
 require_relative '../config/environment.rb'
 
 # test code goes here
+lift1 = Lifter.new("Aaron", 20)
+lift2 = Lifter.new("Ed", 60)
+lift3 = Lifter.new("Will", 8)
+lift4 = Lifter.new("Pizza", 50)
 
+gym1 = Gym.new("The Gym")
+gym2 = Gym.new("PureGym")
+gym3 = Gym.new("David Lloyds")
 binding.pry
 
 puts "Gains!"
